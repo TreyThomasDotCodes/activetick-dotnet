@@ -33,5 +33,10 @@ namespace TreyThomasCodes.ActiveTickDotNet
             TradeCount = uint.Parse(data["tc"]);
             Volume = uint.Parse(data["v"]);
         }
+
+        public Snapshot()
+        {
+            
+        }
     }
 }

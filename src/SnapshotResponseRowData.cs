@@ -17,5 +17,12 @@ namespace TreyThomasCodes.ActiveTickDotNet
 
         [JsonPropertyName("v")]
         public string Value { get; init; }
+
+        public SnapshotResponseRowData(string column, string status, string value)
+        {
+            Column = column;
+            Status = status;
+            Value = value;
+        }
     }
 }
