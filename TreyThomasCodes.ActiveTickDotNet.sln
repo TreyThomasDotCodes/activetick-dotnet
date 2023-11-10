@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreyThomasCodes.ActiveTickDotNet", "src\TreyThomasCodes.ActiveTickDotNet.csproj", "{3F994794-B695-4134-A34B-3F8EC739FC47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreyThomasCodes.ActiveTickDotNet.Tests", "tests\TreyThomasCodes.ActiveTickDotNet.Tests.csproj", "{7B772264-5E98-418A-AA3B-1CC3437435C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreyThomasCodes.ActiveTickDotNet.Tests", "tests\TreyThomasCodes.ActiveTickDotNet.Tests.csproj", "{7B772264-5E98-418A-AA3B-1CC3437435C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreyThomasCodes.ActiveTickDotNet.Example", "example\TreyThomasCodes.ActiveTickDotNet.Example.csproj", "{B71A9A37-04D1-481E-A3C0-A18CD3EDDD91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7B772264-5E98-418A-AA3B-1CC3437435C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B772264-5E98-418A-AA3B-1CC3437435C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B772264-5E98-418A-AA3B-1CC3437435C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71A9A37-04D1-481E-A3C0-A18CD3EDDD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71A9A37-04D1-481E-A3C0-A18CD3EDDD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71A9A37-04D1-481E-A3C0-A18CD3EDDD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71A9A37-04D1-481E-A3C0-A18CD3EDDD91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TreyThomasCodes.ActiveTickDotNet.Example
+{
+    internal class ActiveTick
+    {
+        public string BaseUrl { get; init; }
+        public string Username { get; init; }
+        public string Password { get; init; }
+        public string ApiKey { get; init; }
+    }
+}

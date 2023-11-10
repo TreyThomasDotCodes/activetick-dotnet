@@ -8,6 +8,6 @@ namespace TreyThomasCodes.ActiveTickDotNet
 {
     public interface IActiveTickClient
     {
-        
+        Task<Snapshot> GetSnapshotAsync(string symbol);
     }
 }
